@@ -1,0 +1,76 @@
+body {
+    width: auto;
+    pading: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#comparativa {
+    height: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#comparativa a {
+    color: #1293d4;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#comparativa th {
+    color: #fff;
+    background: #ef0606
+}
+
+#comparativa td {
+    padding-inline: 20px;
+}
+
+#comparativa tr:nth-child(even) {
+    background-color: #eae8e8;
+    border: black;
+}
+
+#comparativa .th-col-izq {
+    font-weight: bold;
+    border-right: 1px solid white;
+}
+
+#comparativa .th-col-drch {
+    font-weight: bold;
+    border-left: 1px solid white;
+}
+
+#comparativa .col-izq {
+    font-weight: bold;
+    border-right: 1px solid black;
+}
+
+#comparativa .col-drch {
+    border-left: 1px solid black;
+}
+
+#comparativa img {
+    height: 100px;
+}
+
+#comparativa button {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background: #e8491d;
+}
+
+#comparativa button a {
+    color: #fff;
+}
+
+#comparativa button img {
+    color: #fff;
+    padding-right: 5px;
+    height: 10px;
+}

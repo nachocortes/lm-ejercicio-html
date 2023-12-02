@@ -1,0 +1,55 @@
+dody {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: 16px Arial, sans-serif;
+    background-color: #b65959;
+
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    min-height: 50px;
+    background: #35424a;
+    border: 0;
+}
+
+#cabecera .box {
+    width: 30%;
+    float: left;
+}
+
+header li {
+    padding: 0 20px 0 20px;
+    float: left;
+    display: inline;
+}
+
+header nav {
+    padding: 5px;
+}
+header a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+}
+
+header a:hover {
+    color: #ffb42e;
+    font-weight: bold;
+}
+
+
+
+main {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    min-height: 800px;
+
+}
